@@ -14,5 +14,5 @@ Run `npm i`
 ## Running
 
 
-`nx run app-shell:serve-mfe`
+`npx nx run app-shell:serve-mfe`
 
