@@ -2,10 +2,7 @@
   "version": 2,
   "projects": {
     "app-shell": "apps/app-shell",
-    "app-shell-e2e": "apps/app-shell-e2e",
     "mfe1": "apps/mfe1",
-    "mfe1-e2e": "apps/mfe1-e2e",
-    "mfe2": "apps/mfe2",
-    "mfe2-e2e": "apps/mfe2-e2e"
+    "mfe2": "apps/mfe2"
   }
 }
