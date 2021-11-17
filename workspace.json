@@ -3,6 +3,7 @@
   "projects": {
     "app-shell": "apps/app-shell",
     "mfe1": "apps/mfe1",
-    "mfe2": "apps/mfe2"
+    "mfe2": "apps/mfe2",
+    "web-component": "apps/web-component"
   }
 }
