@@ -9,11 +9,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-import { WebComponentWrapper } from './web-component-wrapper.component';
 
 
 @NgModule({
-  declarations: [AppComponent, WebComponentWrapper],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
