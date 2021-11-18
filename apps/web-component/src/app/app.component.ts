@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web-component';
+  // https://github.com/angular-architects/module-federation-plugin/tree/main/libs/mf-tools
 }
