@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { shareNgZone } from '@angular-architects/module-federation-tools';
+import { Component, NgZone } from '@angular/core';
 
 @Component({
   selector: 'module-federation-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mfe2';
+  constructor(private ngZone: NgZone) {
+    console.log(this.title);
+    shareNgZone(ngZone);
+  }
 }
